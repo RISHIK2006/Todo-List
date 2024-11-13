@@ -1,0 +1,17 @@
+button {
+  padding: 12px;
+  cursor: pointer;
+  background-color: #00796b; /* Dark teal background */
+  border: none;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  font-size: 16px;
+  margin-left: 10px; /* Add left margin for spacing */
+}
+
+/* Adjust the button hover effect */
+button:hover {
+  background-color: #004d40; /* Darker teal on hover */
+  transform: scale(1.05); /* Slightly enlarge button */
+}
